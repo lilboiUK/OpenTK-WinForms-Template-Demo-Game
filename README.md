@@ -13,7 +13,7 @@ This is a template for creating games using OpenTK and WinForms.
 
 ## Introduction
 
-This template provides a starting point for creating 2D games using OpenTK and WinForms. It includes a basic game structure, input handling, rendering with OpenGL, and collision detection. You can use this template as a foundation to build your own games and customize it to fit your specific requirements.
+This template provides a starting point for creating games using OpenTK and WinForms. It includes a basic game structure, input handling, 2D rendering with OpenGL, and collision detection. You can use this template as a foundation to build your own games and customize it to fit your specific requirements.
 
 ## Features
 
