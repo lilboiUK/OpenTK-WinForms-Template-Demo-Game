@@ -1,43 +1,47 @@
 # OpenTK WinForms Template
 
-Description:
-This repository provides a basic template for developing Windows Forms applications with the OpenTK library, 
-which allows for rendering graphics using OpenGL. 
-The template includes the necessary code structure and setup to create an OpenGL context, 
-load shaders, and render a simple scene.
+This is a template for creating games using OpenTK and WinForms.
 
-Key Features:
+## Table of Contents
 
-1. Windows Forms application template with OpenGL rendering support
-2. Integration with the OpenTK library for OpenGL functionality
-3. Basic shader loading and rendering setup
-4. Automatic update and rendering loop with delta time calculation
-5. Handling of form resizing and viewport adjustment
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Example Project](#example-project)
+- [Contributing](#contributing)
+- [License](#license)
 
-Usage:
+## Introduction
 
-1. Clone or download the repository.
-2. Open the solution in your preferred development environment.
-3. Build the solution to resolve dependencies.
-4. Explore and modify the MainForm class to implement your desired rendering logic and user interactions.
-5. Run the application to see the OpenGL-rendered scene and observe the basic example of a triangle with a color changing backgorund.
+This template provides a starting point for creating 2D games using OpenTK and WinForms. It includes a basic game structure, input handling, rendering with OpenGL, and collision detection. You can use this template as a foundation to build your own games and customize it to fit your specific requirements.
 
-Note: 
-This template is intended to provide a starting point for Windows Forms applications with OpenGL rendering. 
-It's recommended to customize and extend the code according to your specific requirements, 
-such as incorporating additional shaders, implementing input handling, or managing more complex rendering scenarios.
+## Features
 
-Contributions:
-Contributions, bug reports, and feature requests are welcome. If you find any issues or have ideas for improvements, please open an issue or submit a pull request.
+- Game loop and timing management
+- Input handling for keyboard controls
+- OpenGL rendering using OpenTK
+- Basic collision detection
+- Simple example game included
 
-License:
-This project is licensed under the [MIT License](LICENSE.txt), allowing you to use, modify, and distribute the code according to the terms of the license.
+## Getting Started
 
-Disclaimer:
-Please note that this template is a simplified example and may not cover all aspects of a full-fledged OpenGL application. 
-It serves as a starting point and learning resource for Windows Forms development with OpenTK and OpenGL.
+To use this template, follow these steps:
+
+1. Clone or download this repository to your local machine.
+2. Open the solution file in your preferred IDE (e.g., Visual Studio).
+3. Build the solution to restore NuGet packages and compile the project.
+4. Run the application to see the template in action.
+
+## Example Project
+
+An example project has been included to demonstrate the usage of the template. It showcases a simple 2D game where the player needs to avoid obstacles and score points. You can explore the example project to understand how the template can be utilized to create games.
 
 ## Contributing
 
-- [Code of Conduct](docs/CODE_OF_CONDUCT.md)
-- [Contributing Guidelines](docs/CONTRIBUTING.md)
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request. Please follow the guidelines in the [CONTRIBUTING](docs/CONTRIBUTING.md) file.
+
+By contributing to this project, you agree to abide by the [CODE OF CONDUCT](docs/CODE_OF_CONDUCT.md).
+
+## License
+
+This template is licensed under the [MIT License](LICENSE.txt). Feel free to modify and use it for your own projects.
